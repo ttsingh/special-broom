@@ -1,0 +1,376 @@
+ @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@1&display=swap');
+
+body{
+    display: flexbox;
+    background-color: rgb(255, 69, 0);
+}
+
+.heading h1{
+    width: 260px;
+    height: 146px;
+    left: 23px;
+    top: -22px;
+    
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 107px;
+    line-height: 124px;
+    
+    color: whitesmoke;
+}
+
+.heading h3{
+    position: absolute;
+    width: 260px;
+    height: 146px;
+    left: 23px;
+    top: 192px;
+    
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 107px;
+    line-height: 75px;
+    
+    color: #FFFFFF;
+}
+
+.heading{
+    line-height: 0.6;
+}
+
+.heading p{
+    position: absolute;
+    width: 693px;
+    height: 70px;
+    left: 23px;
+    top: 139px;
+    
+    font-family: 'Archivo Narrow';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    
+    color: #8AC1D3;
+}
+
+.dr{
+    width: 260px;
+    height: 146px;
+    left: 23px;
+    top: -22px;
+    
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 107px;
+    line-height: 100px;
+    
+    color: whitesmoke;
+
+}
+
+/*  .spy{
+    position: absolute;
+    width: 813px;
+    height: 853px;
+    left: 618px;
+    top: 211px;
+    
+    background: url(spy.png);
+}*/
+
+.spy{
+    position: absolute;
+    width: 696px;
+    height: 731px;
+    left: 900px;
+    top: 192px;
+    z-index: 0;
+    background: url(spy.png);
+}
+
+.img1{
+    position: absolute;
+    width: 584px;
+    height: 329px;
+    left: 300px;
+    top: 428px;
+    
+    background: url(confes1.png);
+}
+
+.quote1{
+    position: absolute;
+    width: 319px;
+    height: 217px;
+    left: 1050px;
+    top: 385px;
+    z-index: 10;
+    font-family: 'Archivo Narrow';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: left;
+    color: #FF4500;
+}
+
+.quote1 p:hover{
+    background-color: whitesmoke;
+    z-index: 5;
+}
+
+.person1{
+    position: absolute;
+    width: 438px;
+    height: 31px;
+    left: 960px;
+    top: 500px;
+    z-index: 10;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    text-align: right;
+
+    color: #8AC1D3;
+}
+
+.person1 h6:hover{
+    background-color: whitesmoke;
+    z-index: 5;
+}
+
+.ball{
+    position: absolute;
+    width: 604px;
+    height: 573px;
+    left: 53px;
+    top: 700px;
+    z-index: 0;
+    background: url(8b.png);
+}
+
+.confes2{
+    position: absolute;
+    width: 596px;
+    height: 336px;
+    left: 770px;
+    top: 900px;
+
+    background: url(confes1.png);
+}
+
+.quote2{
+    position: absolute;
+    width: 319px;
+    height: 217px;
+    left: 290px;
+    top: 900px;
+    z-index: 10;
+    font-family: 'Archivo Narrow';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: right;
+
+    color: #FF4500;
+}
+
+.person2{
+    position: absolute;
+    width: 399px;
+    height: 31px;
+    left: 200px;
+    top: 1050px;
+    z-index: 10;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    text-align: left;
+
+    color: #8AC1D3;
+}
+
+.quote2 p:hover{
+    background-color: whitesmoke;
+    z-index: 5;
+}
+
+.person2 h6:hover{
+    background-color: whitesmoke;
+    z-index: 5;
+}
+
+.phone{
+    position: absolute;
+    width: 696px;
+    height: 731px;
+    left: 650px;
+    top: 1300px;
+    z-index: 0;
+    background: url(phone.png);
+}
+
+.confes3{
+    position: absolute;
+    width: 584px;
+    height: 329px;
+    left: 100px;
+    top: 1428px;
+
+    background: url(confes1.png);
+
+}
+
+.quote3{
+    position: absolute;
+    width: 319px;
+    height: 217px;
+    left: 850px;
+    top: 1600px;
+    z-index: 10;
+    font-family: 'Archivo Narrow';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: left;
+    z-index: 10;
+    color: #FF4500;
+
+}
+
+.person3{
+    position: absolute;
+    width: 438px;
+    height: 31px;
+    left: 760px;
+    top: 1730px;
+
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    text-align: right;
+    z-index: 10;
+    color: #8AC1D3;
+
+}
+
+.quote3 p:hover{
+    background-color: whitesmoke;
+    z-index: 5;
+}
+
+.person3 h6:hover{
+    background-color: whitesmoke;
+    z-index: 5;
+}
+
+.footer1{
+    position: absolute;
+    width: 345px;
+    height: 74px;
+    left: 485px;
+    top: 1900px;
+    
+    background: url(glt.png);
+}
+
+.footer2{
+    position: absolute;
+    width: 345px;
+    height: 74px;
+    left: 485px;
+    top: 3000px;
+    
+    background: url(home.png);
+}
+/*p2*/
+.descp1{
+    position: absolute;
+    width: 605px;
+    height: 146px;
+    left: 891px;
+    top: 400px;
+
+    font-family: 'Trebuchet MS';
+    font-style:oblique;
+    font-weight: 700;
+    font-size: 87px;
+    line-height: 124px;
+
+    color: #FFFFFF;
+}
+
+.comp{
+    position: absolute;
+    width: 1225px;
+    height: 1235px;
+    left: 53px;
+    top: 600px;
+
+    background: url(ga.png);
+}
+
+.s-art{
+    position: absolute;
+    width: 605px;
+    height: 146px;
+    left: 53px;
+    top: 1557px;
+
+    font-family: 'Trebuchet MS';
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 107px;
+    line-height: 124px;
+
+    color: #FFFFFF;
+}
+
+.audio{
+    position: absolute;
+    width: 605px;
+    height: 146px;
+    left: 700px;
+    top: 1750px;
+
+}
+
+.vid{
+    position: absolute;
+    width: 605px;
+    height: 146px;
+    left: 891px;
+    top: 1750px;
+
+    font-family: 'Trebuchet MS';
+    font-style:oblique;
+    font-weight: 700;
+    font-size: 87px;
+    line-height: 124px;
+
+    color: #FFFFFF;
+}
+
+.video{
+    position: absolute;
+    width: 1225px;
+    height: 1235px;
+    left: 33px;
+    top: 2000px;
+}
+
+.gla{
+    background-color: black;
+}
